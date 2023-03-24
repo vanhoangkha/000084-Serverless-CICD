@@ -1,10 +1,10 @@
 ---
-title : "Serverless - CI/CD with CodePipeline"
+title : "Serverless - CI/CD with AWS CodePipeline"
 date :  "`r Sys.Date()`" 
 weight : 1 
 chapter : false
 ---
-# Serverless - CI/CD with CodePipeline
+# Serverless - CI/CD with AWS CodePipeline
 
 #### Overview
 Continuous Integration, Continuous Delivery, Continuous Deployment (CI/CD) are software development practices for producing software in short cycles between merging source code changes and updating applications. The ultimate goal of these practices is to reduce the costs, time, and risks by delivering software in small pieces.
