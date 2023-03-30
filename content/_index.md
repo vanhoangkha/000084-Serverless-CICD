@@ -14,15 +14,15 @@ In workshop 7 of this series, we will know about CI/CD flow building so that eve
 The CI/CD Architecture for back-end:
 ![SeverlessExample](/images/SAMPipeline.png?featherlight=false&width=50pc)
 
-- The develop create a git repository on CodeCommit and pushes code of SAM project on it
-- Every time the source code is updated, CodeBuild will automaticlly rebild and prepare the CloudFormation template
+- The developer create a git repository on CodeCommit and pushes code of SAM project on it
+- Every time the source code is updated, CodeBuild will automatically rebuild and prepare the CloudFormation template
 - CloudFormation creates/updates serverless services
 
 The CI/CD Architecture for website front-end:
 
 ![SeverlessExample](/images/FrontEndPipeline.png?featherlight=false&width=50pc)
 
-- The developer creates a git repo on CodeCommit and pushes the front-end code on it
+- The developer creates a git repository on CodeCommit and pushes the front-end code on it
 - Every time the source code is updated, CodeBuild will automatically rebuild and then package the build folder
 - Finally, the build folder is pushed to the S3 bucket with the static hosting website enabled
 
