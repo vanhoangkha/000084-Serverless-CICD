@@ -17,7 +17,7 @@ sam build
 
 3. Thực hiện câu lệnh dưới đây để tải code **fcj-serverless-frontend** về máy của bạn
 ```
-git clone https://github.com/PhamTHHanh/fcj-serverless-frontend.git
+git clone https://github.com/AWS-First-Cloud-Journey/FCJ-Serverless-Workshop
 ```
 
 4. Thực hiện câu lệnh dưới đây tại thư mục gốc của **fcj-serverless-frontend** để build project

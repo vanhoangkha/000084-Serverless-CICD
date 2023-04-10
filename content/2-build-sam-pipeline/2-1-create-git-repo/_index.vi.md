@@ -38,7 +38,6 @@ git commit -m "Initial commit"
 ```
 
 ![PushCode](/images/2-build-sam-pipeline/2-1-create-git-repo-2.png?featherlight=false&width=90pc)
-![PushCode](/images/2-build-sam-pipeline/2-1-create-git-repo-3.png?featherlight=false&width=90pc)
 
 3. Thêm URL của CodeCommit repository mà bạn đã tạo làm remote trên git project cục bộ
 ```
@@ -52,6 +51,8 @@ Nếu origin đã tồn tại hoặc url bị sai, có thể xoá bằng cách c
 ```
 git push -u origin main
 ```
+
+![PushCode](/images/2-build-sam-pipeline/2-1-create-git-repo-3.png?featherlight=false&width=90pc)
 
 5. Quay lại với bảng điều khiển của CodeCommit
 - Ấn vào repository **fcj-book-store-backend**, bạn sẽ thấy code đã được đẩy lên

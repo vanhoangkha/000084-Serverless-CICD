@@ -17,7 +17,7 @@ sam build
 
 3. Run the following command to clone **fcj-serverless-frontend** code to your device
 ```
-git clone https://github.com/PhamTHHanh/fcj-serverless-frontend.git
+git clone https://github.com/AWS-First-Cloud-Journey/FCJ-Serverless-Workshop
 ```
 
 4. Run the following command in the root folder of **fcj-serverless-frontend** to build project
