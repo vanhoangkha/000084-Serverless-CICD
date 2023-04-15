@@ -67,7 +67,7 @@
 	"title": "Cleanup",
 	"tags": [],
 	"description": "",
-	"content": " Empty S3 bucket Open AWS S3 console Select fcj-book-store Click Empty Enter permanently delete Click Empty Do the same for bucket starting with aws-sam-cli-managed-default- and book-image-resize-store bucket Delete pipeline Open AWS CodePipeline console Select fcj-book-store-frontend-pipeline pipeline Click Delete pipeline Enter delete Click Delete Delete CloudFormation stacks and CodeCommit repository Execute the below commands: aws codecommit delete-repository --repository-name fcj-book-store-backend aws codecommit delete-repository --repository-name fcj-book-store-frontend sam delete --stack-name fcj-book-store-backend-dev sam delete --stack-name fcj-book-store-backend sam delete --stack-name aws-sam-cli-managed-dev-pipeline-resourcest "
+	"content": " Empty S3 bucket Open AWS S3 console Select fcj-book-store Click Empty Enter permanently delete Click Empty Do the same for bucket starting with aws-sam-cli-managed-default- and book-image-resize-store bucket Delete pipeline Open AWS CodePipeline console Select fcj-book-store-frontend-pipeline pipeline Click Delete pipeline Enter delete Click Delete Delete CloudFormation stacks and CodeCommit repository Execute the below commands: aws codecommit delete-repository --repository-name fcj-book-store-backend aws codecommit delete-repository --repository-name fcj-book-store-frontend sam delete --stack-name fcj-book-store-backend-dev sam delete --stack-name fcj-book-store-backend-pipeline sam delete --stack-name aws-sam-cli-managed-dev-pipeline-resources "
 },
 {
 	"uri": "/categories/",

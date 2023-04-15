@@ -25,6 +25,6 @@ pre : " <b> 5. </b> "
 aws codecommit delete-repository --repository-name fcj-book-store-backend
 aws codecommit delete-repository --repository-name fcj-book-store-frontend
 sam delete --stack-name fcj-book-store-backend-dev
-sam delete --stack-name fcj-book-store-backend
+sam delete --stack-name fcj-book-store-backend-pipeline
 sam delete --stack-name aws-sam-cli-managed-dev-pipeline-resources
 ```
