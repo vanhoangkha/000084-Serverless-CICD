@@ -18,7 +18,7 @@
 	"title": "Preparation",
 	"tags": [],
 	"description": "",
-	"content": "Before doing the main content of this workshop, we prepare the SAM project and download the front-end source to your machine.\nDownload theh below source code of SAM project SAM source fcj-book-store-sam-ws7.zip (8274 ko) Run the following command sam build Run the following command to clone fcj-serverless-frontend code to your device git clone https://github.com/AWS-First-Cloud-Journey/FCJ-Serverless-Workshop Run the following command in the root folder of fcj-serverless-frontend to build project yarn build We have prepared the necessary source for the next steps.\n"
+	"content": "Before doing the main content of this workshop, we prepare the SAM project and download the front-end source to your machine.\nDownload theh below source code of SAM project SAM source fcj-book-store-sam-ws7.zip (8274 ko) Run the following command sam build You should install python3.9 because the lambda function uses python3.9\nRun the following command to clone fcj-serverless-frontend code to your device git clone https://github.com/AWS-First-Cloud-Journey/FCJ-Serverless-Workshop cd FCJ-Serverless-Workshop npm install npm install --global yarn We have prepared the necessary source for the next steps.\n"
 },
 {
 	"uri": "/",

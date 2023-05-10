@@ -4,7 +4,7 @@
 	"title": "Chuẩn bị",
 	"tags": [],
 	"description": "",
-	"content": "Trước khi thực hiện nội dung chính của workshop này, chúng ta chuẩn bị sam project và tải source của front-end về máy của bạn.\nTải source code của sam project dưới đây SAM source fcj-book-store-sam-ws7.zip (8274 ko) Chạy câu lệnh dưới đây để build project sam build Thực hiện câu lệnh dưới đây để tải code fcj-serverless-frontend về máy của bạn git clone https://github.com/AWS-First-Cloud-Journey/FCJ-Serverless-Workshop Thực hiện câu lệnh dưới đây tại thư mục gốc của fcj-serverless-frontend để build project yarn build Chúng ta đã chuẩn bị xong source cần thiết cho các bước tiếp theo.\n"
+	"content": "Trước khi thực hiện nội dung chính của workshop này, chúng ta chuẩn bị sam project và tải source của front-end về máy của bạn.\nTải source code của sam project dưới đây SAM source fcj-book-store-sam-ws7.zip (8274 ko) Chạy câu lệnh dưới đây để build project sam build Bạn nên cài đặt python3.9 vì các hàm lambda sử dụng python3.9\nThực hiện câu lệnh dưới đây để tải code fcj-serverless-frontend về máy của bạn git clone https://github.com/AWS-First-Cloud-Journey/FCJ-Serverless-Workshop cd FCJ-Serverless-Workshop npm install npm install --global yarn Chúng ta đã chuẩn bị xong source cần thiết cho các bước tiếp theo.\n"
 },
 {
 	"uri": "/vi/",

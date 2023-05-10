@@ -15,14 +15,16 @@ Before doing the main content of this workshop, we prepare the SAM project and d
 sam build
 ```
 
+{{% notice note %}}
+You should install python3.9 because the lambda function uses python3.9
+{{% /notice %}}
+
 3. Run the following command to clone **fcj-serverless-frontend** code to your device
 ```
 git clone https://github.com/AWS-First-Cloud-Journey/FCJ-Serverless-Workshop
-```
-
-4. Run the following command in the root folder of **fcj-serverless-frontend** to build project
-```
-yarn build
+cd FCJ-Serverless-Workshop
+npm install
+npm install --global yarn
 ```
 
 We have prepared the necessary source for the next steps.
