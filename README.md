@@ -22,7 +22,7 @@ In workshop 7 of this series, we will know about CI/CD flow building so that eve
    - Create Git repository
    - Create pipeline
 4. Test web operation
-5. Cleanup
+5. Clean up
 
 ## Prerequisites
 
